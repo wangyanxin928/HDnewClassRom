@@ -1,0 +1,41 @@
+@charset "utf-8";
+html,body{width: 100%;height: 100%;}
+.bg-white{background-color: #FFFFFF;}
+.p16{padding: 16px;}
+.margin-auto{margin: auto;}
+.margin-top2{margin-top: 2rem!important;}
+.margin-top10{margin-top: 10rem;}
+.content{height: 100%;width: 100%;}
+
+.returnBtn{  position: absolute;left: 3rem;}
+
+
+
+.mui-btn-lightreen{color: #fff;background-color: #52cbd8;border: 1px solid #52cbd8;}
+
+/* 首页start*/
+.homePage{width: 100%;height: 100%;background-color: #2dcad9;}
+.homePage .logo{position: fixed;left: 50%;top: 26%;margin-left: -50px;}
+.logo{width:8rem;height: 8rem;background-color: #085a61;border: 1px solid #085a61;border-radius: 5px;padding: 5px;margin: auto;}
+.logo .logoText{color: #FFFFFF;font-size: 2.5rem;font-family: "comic sans ms";display: inline-block;width: 5rem;float: left;    line-height: 3rem;margin-top: 3rem;}
+.logo .logoSubtitle{display: inline-block;color: #085a61;border: #FFFFFF;background-color: #FFFFFF;font-size: 1rem;line-height: 1.7rem;text-align: center;border: 1px solid #999999;border-radius: 5px;padding: 3px;}
+.logo .logoSubtitle p{margin-bottom: 0px;}
+.logo .logoBpttomText{font-size: 1rem;text-align: right;color: #ffffff;}
+.homePageSlogan{color: #FFFFFF;font-size: 2rem;position: fixed;top: 60%;left: 50%;margin-left: -11rem;}
+.homePageBottom{color: #ffffff;font-size: 1rem;position: fixed;bottom: 3%;left: 50%;margin-left: -8.5rem;}
+
+/*首页end*/
+
+/*登陆／注册选择页 start*/
+#landIng{width: 100%;height: 100%;min-height: 100%;background-image: url(../images/landIngBg.PNG);background-repeat: no-repeat;background-size: 100% 100%;}
+#landIng .logo{position: fixed;left: 50%;top: 15%;margin-left: -50px;}
+#landIng .landIngBtnBox{position: fixed;width: 100%;bottom: 20%;}
+/*登陆／注册页 end*/
+
+/*信息注册页start*/
+
+/*信息注册页 end*/
+
+/*主页start*/
+
+/*主页end*/
