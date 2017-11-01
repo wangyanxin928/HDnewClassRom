@@ -17,7 +17,7 @@
 <header class=" bg-lightBlue">
     <div class="row ">
         <div class="col-sm-12 col-xs-12  text-center text-white">
-            <span class="glyphicon glyphicon-chevron-left returnBtn "
+            <span class="glyphicon glyphicon-menu-left returnBtn  "
                   onclick="javascript:window.history.back(-1);"  ></span>
             <div>选择学科</div>
         </div>
@@ -103,5 +103,10 @@
 
 </div>
 </body>
+<script>
+    $('.courseBtn ').click(function (e) {
+        location = "groupingPage.html";
+    })
+</script>
 
 </html>

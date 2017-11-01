@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<!--landIng.html-->
+<!-- 登陆页面 -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>学生分组</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body class="bg-gray " >
+<header class=" bg-lightBlue">
+    <div class="row ">
+        <div class="col-sm-12 col-xs-12  text-center text-white">
+            <span class="glyphicon glyphicon-menu-left returnBtn "
+                  onclick="javascript:window.history.back(-1);"  ></span>
+            <div>学生分组</div>
+        </div>
+    </div>
+</header>
+<div class="container-fluid " id="grouping">
+    <div class="row">
+        <h4 class="col-xs-12 col-sm-12 text-left text-muted">
+            选择学员进行分组（多选）
+        </h4>
+    </div>
+    <div class="row bg-white">
+
+        <div class="col-sm-3 col-xs-3">
+            <div class="row  groupList">
+                <div class="col-xs-12 col-sm-12">
+                    <button type="button" class="btn btn-default btn-block btn-lg">第一组</button>
+                    <button type="button" class="btn btn-default btn-block btn-lg">第二组</button>
+                    <button type="button" class="btn btn-default btn-block btn-lg">第三组</button>
+                    <button type="button" class="btn btn-default btn-block btn-lg">第四组</button>
+                    <button type="button" class="btn btn-default btn-block btn-lg">第五组</button>
+                    <button type="button" class="btn btn-default btn-block btn-lg">第六组</button>
+                    <button type="button" class="btn btn-default btn-block btn-lg">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9 col-xs-9">
+            <div class="row studentList text-center">
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张治中</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张闻天</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张瑞</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">王旭</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张也</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">周秉承</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">王曦</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">夏翰</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">王馨</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张尕</button></div>
+                <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">李睿</button></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <h4 class="col-xs-12 col-sm-12 text-left text-muted">
+           已选学员
+        </h4>
+    </div>
+    <div class="bg-white row">
+        <div class="col-sm-12 col-xs-12 addedList" >
+            <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张治中 <span class="glyphicon glyphicon-remove-circle " ></span></button></div>
+            <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张闻天<span class="glyphicon glyphicon-remove-circle " ></span></button></div>
+            <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张瑞<span class="glyphicon glyphicon-remove-circle " ></span></button></div>
+            <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">王旭<span class="glyphicon glyphicon-remove-circle " ></span></button></div>
+            <div class="col-sm-4 col-xs-4 "><button type="button" class="btn btn-default btn-block btn-lg">张也<span class="glyphicon glyphicon-remove-circle " ></span></button></div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $('#grouping .groupList button').click(function (e) {
+        $(this).siblings().css({'color':'#333','border-color':'#ccc'});
+        $(this).css({'color':'#2dcad9','background-color':'#fff','border':'1px solid #2dcad9'});
+    });
+    $('.studentList button').click(function (e) {
+        $(this).css({'color':'#2dcad9','background-color':'#fff','border':'1px solid #2dcad9'});
+    })
+</script>
+
+</html>

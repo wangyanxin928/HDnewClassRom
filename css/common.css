@@ -1,7 +1,7 @@
 @charset "utf-8";
 html,body{width: 100%;height: 100%;}
 header{padding: 10px;font-size: 2.4rem;}
-.btn-default:hover,.btn-default:active,.btn-default:focus{background-color: #2dcad9;border-color: #ffffff;color: #ffffff;}
+/*.btn-default:hover,.btn-default:active,.btn-default:focus{background-color: #2dcad9;border-color: #ffffff;color: #ffffff;}*/
 .text-white{color: #FFFFFF;}
 .text-black{color: #333333;}
 .bg-white{background-color: #FFFFFF;}
@@ -18,7 +18,7 @@ header{padding: 10px;font-size: 2.4rem;}
 
 
 
-.mui-btn-lightreen{color: #fff;background-color: #52cbd8;border: 1px solid #52cbd8;}
+.mui-btn-lightreen{color: #fff;background-color: #2dcad9;border: 1px solid #2dcad9;}
 
 /* 首页start*/
 .homePage{width: 100%;height: 100%;background-color: #2dcad9;}
@@ -59,3 +59,9 @@ header{padding: 10px;font-size: 2.4rem;}
 .courseBtn:hover,.courseBtn:active,.courseBtn:focus{background-color: #2dcad9;color: #FFFFFF;}
 
 /*选择学科end*/
+/*学员分组start*/
+#grouping .gradeClassList .list-group-item{padding: 10px 0px;text-align: center;}
+.groupList button,.studentList button,.addedList button {margin: 1rem 0;}
+.addedList{height: 20rem;}
+.addedList button span{float: right;}
+/*学员分组end*/
